@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=co, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            padding: 0px;
+            margin:0px
+        }
+
+        #box1{
+            box-sizing: content-box;
+        }
+        #box2{
+            box-sizing: border-box;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            padding: 50px;
+            border: 10px solid black;
+            margin:50px
+        }
+    </style>
+</head>
+<body>
+ <div id="containterOne">
+    <div class="box" id="box1">Box1 <br> box-sizing: content-box; Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, unde. Lorem ipsum dolor sit amet.</div>
+ </div>
+ <div id="containterTwo">
+    <div class="box" id="box2">Box2 <br> box-sizing: border-box; Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, unde. Lorem ipsum dolor sit amet.</div>
+ </div>
+
+</body>
+</html>

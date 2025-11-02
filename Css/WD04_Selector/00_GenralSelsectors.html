@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding:0;
+        }
+       div{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            margin: 5px;
+       }
+
+       .classA{
+        background-color: red;
+       }
+       .classB{
+        background-color: blue;
+       }
+
+       #box3{
+        background-color: yellow;
+       }
+
+       div[name="specials"]{
+        border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box1" class="classA"></div>
+    <div id="box2" class="classB"></div>
+    <div id="box3" class="classC"></div>
+    <div id="box4" class="classA" name="specials"></div>
+    <div id="box4" class="classB"></div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=co, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            padding: 0px;
+            margin:0px
+        }
+
+        #box1{
+            height: 100px;
+            width: 100px;
+            padding: 50px;
+            border: 10px solid black;
+            margin:50px
+        }
+
+        #box2{
+            height: 100px;
+            width: 100px;
+            padding-top: 50px;
+            padding-right: 100px;
+            padding-bottom: 150px;
+            padding-left: 200px;
+            border: 10px solid black;
+        }
+
+        #box3{
+            height: 100px;
+            width: 100px;
+            margin-top: 50px;
+            margin-right: 100px;
+            margin-bottom: 150px;
+            margin-left: 200px;
+            border: 10px solid black;
+        }
+
+    </style>
+</head>
+<body>
+ <div id="containterOne">
+    <div class="box" id="box1">Box1 <br> box-sizing: content-box; Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, unde. Lorem ipsum dolor sit amet.</div>
+ </div>
+ <div id="containterTwo">
+    <div class="box" id="box2">Box2 <br> box-sizing: border-box; Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, unde. Lorem ipsum dolor sit amet.</div>
+ </div>
+
+ <div id="containterThree" style="border: 5px solid red; width:300px; height: 300px">
+    <div class="box" id="box3">Box2 <br> box-sizing: border-box; Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, unde. Lorem ipsum dolor sit amet.</div>
+ </div>
+</body>
+</html>
